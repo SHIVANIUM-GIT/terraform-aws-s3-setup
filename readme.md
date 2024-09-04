@@ -32,10 +32,6 @@ This Terraform configuration creates an AWS S3 bucket with environment-specific 
 - **Type**: `number`
 - **Description**: The number of EC2 instances.
 
-### `key_name`
-- **Type**: `string`
-- **Description**: The name of the SSH key pair to access the EC2 instance.
-
 ## Configuration Files
 
 ### `main.tf`
@@ -51,7 +47,6 @@ my_evn         = "dev"
 ami_id         = "ami-xxxxxxxx" # Replace with valid AMI ID
 instance_type  = "t2.micro"
 instance_count = 1
-key_name       = "your-dev-key"
 ```
 
 #### `stg.tfvars`
@@ -60,7 +55,6 @@ my_evn         = "stg"
 ami_id         = "ami-xxxxxxxx" # Replace with valid AMI ID
 instance_type  = "t2.medium"
 instance_count = 1
-key_name       = "your-stg-key"
 ```
 
 #### `prod.tfvars`
@@ -69,7 +63,6 @@ my_evn         = "prod"
 ami_id         = "ami-xxxxxxxx" # Replace with valid AMI ID
 instance_type  = "t2.large"
 instance_count = 3
-key_name       = "your-prod-key"
 ```
 
 ## Usage
