@@ -146,6 +146,9 @@ key_name       = "your-prod-key"
 - **Protect Private Keys**: Ensure that private keys are managed securely and not exposed.
 - **Avoid Public Access**: Configure access policies to prevent unintended public access.
 
+<<<<<<< HEAD
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+=======
+>>>>>>> 1186eecdc1e491a6f772993d6de46b8f3fdabe50
