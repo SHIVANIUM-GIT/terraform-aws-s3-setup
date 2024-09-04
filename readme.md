@@ -104,7 +104,3 @@ resource "aws_s3_bucket" "my_bucket" {
 - **Protect Private Keys**: Ensure that private keys are managed securely and not exposed.
 - **Avoid Public Access**: Configure access policies to prevent unintended public access.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
